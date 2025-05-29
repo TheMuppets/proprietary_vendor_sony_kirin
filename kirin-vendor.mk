@@ -187,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kirin/proprietary/vendor/etc/wifi/bdwlanb1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlanb1.bin
 
 PRODUCT_PACKAGES += \
-    libcdsprpc \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
     camera.sdm660 \
@@ -213,6 +212,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_smart_denoise \
     libarcsoft_smile_detection \
     libcam3rdparty \
+    libcdsprpc \
     libchromatix_s5k3l6_bokeh \
     libchromatix_s5k3l6_common \
     libchromatix_s5k3l6_cpp_4k \
